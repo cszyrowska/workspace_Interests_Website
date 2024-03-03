@@ -144,7 +144,6 @@ nav ul li a{
     position: relative;
     z-index: 1;
     display: inline-block;
-
 }
 
 .title-text h1 {
@@ -152,15 +151,6 @@ nav ul li a{
     color: #107eb1;
     margin-bottom: 20px; 
 
-}
-
-.title-text p::after {
-    content: '';
-    display: block; 
-    width: 100%; 
-    height: 2px; 
-    background: linear-gradient(#0e0aff, #16fff3);
-    margin: 20px 0; 
 }
 .feature-box {
     display: flex;
@@ -178,6 +168,7 @@ nav ul li a{
 .features-img {
     flex-basis:  40%;
     margin: auto;
+
 }
 .features-container {
     text-align: center; /* This will center the images if they are block elements */
@@ -185,18 +176,23 @@ nav ul li a{
 
 .features-img img {
     width: 100%;
-    max-width: 600px; /* You can set a max-width to prevent the image from being too large */
+    max-width: 600px;
     height: auto;
     border-radius: 10px;
-    display: block; /* This makes sure the image is a block element and will take up the full width */
-    margin: 20px auto; /* This adds space between the images and centers them */
+    display: block;
+    margin: 20px aut
 }
-.title-text h2 {
-    margin-bottom: 0px; /* Reduced to 0px, adjust as needed */
-    color: rgb(255, 35, 35);
-    font-size: 55px;
-}
-    
+.feature-text {
+    width: 100%; 
+    }
+
+
+    .features h1{
+text-align: left;
+margin-bottom: 10px;
+font-weight: 100;
+color: black;
+    }
     .features-desc{
         display: flex;
         align-items: center;
