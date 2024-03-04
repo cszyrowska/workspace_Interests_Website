@@ -152,6 +152,12 @@ nav ul li a{
     margin-bottom: 20px; 
 
 }
+.features h2 {
+    font-size: 40px;
+    color: #107eb1;
+    margin-bottom: 20px; 
+
+}
 .feature-box {
     display: flex;
     justify-content: space-between;
@@ -200,7 +206,10 @@ color: black;
         justify-content: start;
     }
     .feature-icon .fa{
-        color:#ffa90a;
+        color:#0a58ff;
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
         
     }
         
