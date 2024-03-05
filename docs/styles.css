@@ -289,6 +289,15 @@ max-width: 100%; /* Set the max-width to use the full width of its parent contai
     overflow: hidden; /* Ensures nothing spills out of the border-radius */
 }
 
+.adventure-image-refugee{ 
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    position: relative;
+    display: block; /* Ensures the image takes up the full width */
+}
+
 .adventure-image {
     width: 100%;
     height: auto;
