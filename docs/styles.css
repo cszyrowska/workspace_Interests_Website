@@ -318,6 +318,18 @@ hr{
         color: #125b97;
         margin-bottom: 20px; 
     }
+    .what-I-did-desc{
+        width: 80%;
+        position: absolute;
+        bottom: -100px;
+        left: 50%;
+        opacity: 0;
+        transform: translateX(-50%);
+        transition: 1s;
+        z-index: 2;
+        color: #ffffff;
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8)
+    }
 }
 
 #CURRENTS{
@@ -476,7 +488,7 @@ justify-content: left;
     height: auto;
     border-radius: 10px;
     display: block;
-    margin: 20px aut
+    margin: 60px;
 }
 .feature-text {
     width: 100%; 
