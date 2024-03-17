@@ -179,7 +179,7 @@ nav ul li a{
         #menuBtn img{
             width: 70px;
             margin-top: 15px; 
-            margin-left: -70;
+            margin-left: -10;
         }
         #banner {
             position: relative; /* This ensures absolute-positioned children are relative to this container */
@@ -531,7 +531,7 @@ max-width: 100%; /* Set the max-width to use the full width of its parent contai
 @media screen and (max-width: 770px) {
     .feature-box {
         flex-direction: column; /* Stack items vertically */
-        padding: 0 20px; /* Add padding to the left and right */
+        padding: 0 px; /* Add padding to the left and right */
     }
     .features {
         width: 100%; /* Text takes full width */
@@ -551,6 +551,13 @@ max-width: 100%; /* Set the max-width to use the full width of its parent contai
         padding: 0; /* Reset any padding */
         margin: 0; /* Reset any margin to use the available space */
     }
+    .feature-icon .fa{
+        font-size: 0px;
+    }
+    .features-img {
+        padding-right: 30%;
+    }
+
 }
 
 
